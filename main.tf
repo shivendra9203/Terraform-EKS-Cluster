@@ -1,7 +1,7 @@
 # main.tf
 
 variable "region" {
-  default     = ""
+  default     = "us-east-1"
   description = "AWS region to deploy resources"
 }
 
